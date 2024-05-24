@@ -18,6 +18,14 @@ def chart_2():
 def chart_3():
     return render_template('chart_3a.html')
 
+@app.route('/chart_1W')
+def chart_4():
+    return render_template('chart_1w.html')
+
+@app.route('/chart_2W')
+def chart_5():
+    return render_template('chart_2w.html')
+
 @app.route('/table_1A')
 def table_1():
     return render_template('table_1a.html')
