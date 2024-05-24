@@ -30,10 +30,6 @@ def table_2():
 def table_3():
     return render_template('table_3a.html')
 
-@app.route('/sankey_1A')
-def sankey_1():
-    return render_template('sankey_1.html')
-
 
 if __name__ == '__main__':
     app.run(debug=True)
