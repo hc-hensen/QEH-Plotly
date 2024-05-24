@@ -31,7 +31,7 @@ def table_3():
     return render_template('table_3a.html')
 
 @app.route('/sankey_1')
-def table_3():
+def sankey_1():
     return render_template('sankey_1.html')
 
 
