@@ -22,6 +22,11 @@ def chart_3():
     return render_template('chart_3a.html')
 
 
+@app.route('/chart_4A')
+def chart_4():
+    return render_template('chart_4a.html')
+    
+
 @app.route('/chart_1W')
 def chart_4():
     return render_template('chart_1w.html')
@@ -46,6 +51,11 @@ def table_2():
 def table_3():
     return render_template('table_3a.html')
 
+
+@app.route('/table_4A')
+def table_4():
+    return render_template('table_4a.html')
+    
 
 @app.route('/table_1W')
 def table_4():
